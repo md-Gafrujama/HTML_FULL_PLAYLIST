@@ -37,24 +37,55 @@ HTML documents consist of elements that define the structure and content of a we
 DOCTYPE Declaration
 The <!DOCTYPE html> declaration is used to specify the document type and version of HTML being used. It ensures that the browser renders the page correctly according to the HTML standard.
 
+html
+Copy code
+<!DOCTYPE html>
 <html> Element
 The <html> element is the root element of an HTML document. It contains all other elements and represents the entire content of the web page.
 
+html
+Copy code
+<html>
+</html>
 <head> Element
 The <head> element contains meta-information about the HTML document, such as the page title, character encoding, and links to external resources like CSS and JavaScript files.
 
+html
+Copy code
+<head>
+    <title>Page Title</title>
+</head>
 <title> Element
 The <title> element specifies the title of the HTML document, which appears in the browser's title bar or tab.
 
+html
+Copy code
+<title>Page Title</title>
 <body> Element
 The <body> element contains the main content of the web page, including text, images, links, and other elements.
 
+html
+Copy code
+<body>
+    <!-- Content goes here -->
+</body>
 HTML Elements and Tags
 HTML elements are the building blocks of web pages, defined by tags enclosed in angle brackets. Some common HTML tags include <h1> for headings, <p> for paragraphs, <a> for links, <img> for images, and so on.
 
 Text Elements
 HTML provides various text elements for formatting text, including headings (<h1> to <h6>), paragraphs (<p>), emphasis (<em> and <strong>), lists (<ul>, <ol>, and <li>), and blockquotes (<blockquote>).
 
+html
+Copy code
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<em>This is emphasized text.</em>
+<strong>This is strong text.</strong>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+<blockquote>This is a blockquote.</blockquote>
 Link Elements
 Links are essential for navigation and connecting different web pages. The HTML <a> tag is used to create hyperlinks, with the href attribute specifying the URL of the target page.
 
@@ -92,18 +123,6 @@ Copy code
 <p><sub>Subscript</sub></p>
 <p><sup>Superscript</sup></p>
 <blockquote>This is a blockquote.</blockquote>
-Links and Anchors
-Links are essential for navigation and connecting different web pages. HTML <a> tag is used to create hyperlinks, with the href attribute specifying the URL of the target page.
-
-html
-Copy code
-<a href="https://example.com">Visit Example</a>
-Images
-Images enhance the visual appeal of web pages. The HTML <img> tag is used to embed images, with the src attribute specifying the image file's URL and the alt attribute providing alternative text for accessibility.
-
-html
-Copy code
-<img src="image.jpg" alt="Image Description">
 Lists
 HTML supports ordered lists (<ol>), unordered lists (<ul>), and definition lists (<dl>) for organizing content in a structured manner.
 
@@ -200,8 +219,3 @@ Conclusion
 Congratulations on completing the HTML A to Z course! You now have a solid understanding of HTML and its various elements. Keep practicing and exploring to master web development further.
 
 Happy Coding!
-
-css
-Copy code
-
-This README provides an extensive guide to HTML, covering basic and advanced topics with examples for each concept. Feel free to use it as a reference throughout your HTML learning journey. Happy coding!
