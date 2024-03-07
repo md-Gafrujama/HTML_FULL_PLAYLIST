@@ -1,4 +1,4 @@
-# HTML A to Z Course
+## HTML A to Z Course
 
 Welcome to the HTML A to Z course! In this comprehensive guide, you will learn everything you need to know about HTML, from the basics to advanced topics. Whether you're a beginner looking to start your journey in web development or an experienced developer aiming to brush up on your skills, this course has something for everyone.
 
@@ -38,13 +38,13 @@ DOCTYPE Declaration
 The <!DOCTYPE html> declaration is used to specify the document type and version of HTML being used. It ensures that the browser renders the page correctly according to the HTML standard.
 
 html
-Copy code
+
 <!DOCTYPE html>
 <html> Element
 The <html> element is the root element of an HTML document. It contains all other elements and represents the entire content of the web page.
 
 html
-Copy code
+
 <html>
 </html>
 <head> Element
@@ -59,13 +59,13 @@ Copy code
 The <title> element specifies the title of the HTML document, which appears in the browser's title bar or tab.
 
 html
-Copy code
+
 <title>Page Title</title>
 <body> Element
 The <body> element contains the main content of the web page, including text, images, links, and other elements.
 
 html
-Copy code
+
 <body>
     <!-- Content goes here -->
 </body>
@@ -76,7 +76,7 @@ Text Elements
 HTML provides various text elements for formatting text, including headings (<h1> to <h6>), paragraphs (<p>), emphasis (<em> and <strong>), lists (<ul>, <ol>, and <li>), and blockquotes (<blockquote>).
 
 html
-Copy code
+
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 <em>This is emphasized text.</em>
@@ -90,19 +90,19 @@ Link Elements
 Links are essential for navigation and connecting different web pages. The HTML <a> tag is used to create hyperlinks, with the href attribute specifying the URL of the target page.
 
 html
-Copy code
+
 <a href="https://example.com">Visit Example</a>
 Image Elements
 Images enhance the visual appeal of web pages. The HTML <img> tag is used to embed images, with the src attribute specifying the image file's URL and the alt attribute providing alternative text for accessibility.
 
 html
-Copy code
+
 <img src="image.jpg" alt="Image Description">
 Multimedia Elements
 HTML supports embedding multimedia content such as audio and video using the <audio> and <video> tags, respectively. These tags allow you to specify the source file and include optional attributes for controls, autoplay, and loop.
 
 html
-Copy code
+
 <audio controls>
     <source src="audio.mp3" type="audio/mp3">
     Your browser does not support the audio element.
@@ -116,7 +116,7 @@ Text Formatting
 HTML provides various tags for formatting text, such as <strong> for bold, <em> for italic, <u> for underline, <sub> for subscript, <sup> for superscript, and <blockquote> for block quotes.
 
 html
-Copy code
+
 <p><strong>Bold Text</strong></p>
 <p><em>Italic Text</em></p>
 <p><u>Underlined Text</u></p>
@@ -130,7 +130,7 @@ Ordered Lists (<ol>)
 Ordered lists are used to present items in a numbered sequence.
 
 html
-Copy code
+
 <ol>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -140,7 +140,7 @@ Unordered Lists (<ul>)
 Unordered lists are used to present items with bullet points.
 
 html
-Copy code
+
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -150,7 +150,7 @@ Definition Lists (<dl>)
 Definition lists are used to present terms and their definitions.
 
 html
-Copy code
+##Md Gafrujama
 <dl>
     <dt>Term 1</dt>
     <dd>Definition 1</dd>
@@ -161,7 +161,7 @@ Tables
 Tables are used to display data in rows and columns. The HTML <table> element is used to create tables, with <tr> for rows, <th> for table headers, and <td> for table data.
 
 html
-Copy code
+##786
 <table>
     <tr>
         <th>Name</th>
@@ -176,7 +176,7 @@ Forms
 HTML forms enable users to input data interactively. The <form> element is used to create a form, with various input elements like <input>, <textarea>, <select>, etc.
 
 html
-Copy code
+
 <form action="/submit" method="post">
     <label for="username">Username:</label>
     <input type="text" id="username" name="username"><br><br>
@@ -191,13 +191,13 @@ Canvas Element
 The <canvas> element is used to draw graphics, animations, and other visualizations on a web page using JavaScript.
 
 html
-Copy code
+## Md Gafru
 <canvas id="myCanvas" width="200" height="100"></canvas>
 SVG (Scalable Vector Graphics)
 SVG is a format for describing two-dimensional graphics in XML. It allows for the creation of scalable and interactive graphics on the web.
 
 html
-Copy code
+
 <svg width="100" height="100">
     <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
@@ -205,7 +205,7 @@ Audio and Video Elements
 HTML <audio> and <video> elements allow for the embedding of audio and video content on web pages, respectively.
 
 html
-Copy code
+
 <audio controls>
     <source src="audio.mp3" type="audio/mp3">
     Your browser does not support the audio element.
@@ -218,4 +218,4 @@ Copy code
 Conclusion
 Congratulations on completing the HTML A to Z course! You now have a solid understanding of HTML and its various elements. Keep practicing and exploring to master web development further.
 
-Happy Coding!
+##Happy Coding Thank you the visting !
